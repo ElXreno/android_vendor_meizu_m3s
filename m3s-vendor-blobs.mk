@@ -633,9 +633,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m3s/proprietary/xbin/mnld:system/xbin/mnld \
     vendor/meizu/m3s/proprietary/xbin/MPED:system/xbin/MPED \
     vendor/meizu/m3s/proprietary/xbin/showmap:system/xbin/showmap \
-    vendor/meizu/m3s/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
     vendor/meizu/m3s/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
-    vendor/meizu/m3s/proprietary/etc/ecc_list.xml:system/etc/ecc_list.xml \
     vendor/meizu/m3s/proprietary/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P58_2016_08_11_00_44_1_ulwctg_n:system/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P58_2016_08_11_00_44_1_ulwctg_n \
     vendor/meizu/m3s/proprietary/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P67_2016_12_02_17_56_1_ulwctg_n:system/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P67_2016_12_02_17_56_1_ulwctg_n \
     vendor/meizu/m3s/proprietary/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P75_2017_07_17_16_05_1_ulwctg_n:system/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P75_2017_07_17_16_05_1_ulwctg_n \
