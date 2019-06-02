@@ -632,6 +632,7 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m3s/proprietary/xbin/BGW:system/xbin/BGW \
     vendor/meizu/m3s/proprietary/xbin/mnld:system/xbin/mnld \
     vendor/meizu/m3s/proprietary/xbin/MPED:system/xbin/MPED \
+    vendor/meizu/m3s/proprietary/xbin/showmap:system/xbin/showmap \
     vendor/meizu/m3s/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
     vendor/meizu/m3s/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
     vendor/meizu/m3s/proprietary/etc/ecc_list.xml:system/etc/ecc_list.xml \
@@ -648,4 +649,11 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m3s/proprietary/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P67_1_ulwctg_n.EDB:system/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P67_1_ulwctg_n.EDB \
     vendor/meizu/m3s/proprietary/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P75_1_ulwctg_n.EDB:system/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P75_1_ulwctg_n.EDB \
     vendor/meizu/m3s/proprietary/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat:system/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat \
+    vendor/meizu/m3s/proprietary/app/YGPS/YGPS.apk:system/app/YGPS/YGPS.apk \
+    vendor/meizu/m3s/proprietary/lib64/libril.so:system/lib64/libril.so \
+    vendor/meizu/m3s/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/meizu/m3s/proprietary/lib64/libreference-ril.so:system/lib64/libreference-ril.so \
+    vendor/meizu/m3s/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
+    vendor/meizu/m3s/proprietary/lib64/librilutils.so:system/lib64/librilutils.so \
+    vendor/meizu/m3s/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 # end of blobs
