@@ -632,4 +632,20 @@ PRODUCT_COPY_FILES += \
     vendor/meizu/m3s/proprietary/xbin/BGW:system/xbin/BGW \
     vendor/meizu/m3s/proprietary/xbin/mnld:system/xbin/mnld \
     vendor/meizu/m3s/proprietary/xbin/MPED:system/xbin/MPED \
+    vendor/meizu/m3s/proprietary/etc/spn-conf.xml:system/etc/spn-conf.xml \
+    vendor/meizu/m3s/proprietary/etc/apns-conf.xml:system/etc/apns-conf.xml \
+    vendor/meizu/m3s/proprietary/etc/ecc_list.xml:system/etc/ecc_list.xml \
+    vendor/meizu/m3s/proprietary/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P58_2016_08_11_00_44_1_ulwctg_n:system/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P58_2016_08_11_00_44_1_ulwctg_n \
+    vendor/meizu/m3s/proprietary/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P67_2016_12_02_17_56_1_ulwctg_n:system/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P67_2016_12_02_17_56_1_ulwctg_n \
+    vendor/meizu/m3s/proprietary/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P75_2017_07_17_16_05_1_ulwctg_n:system/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P75_2017_07_17_16_05_1_ulwctg_n \
+    vendor/meizu/m3s/proprietary/etc/mddb/DbgInfo_LR11.W1539.MD.MP_GR6750_66_L_MOLY_LR11_W1539_MD_MP_V19_P58_2016_08_11_13_58_1_ulwctg_n:system/etc/mddb/DbgInfo_LR11.W1539.MD.MP_GR6750_66_L_MOLY_LR11_W1539_MD_MP_V19_P58_2016_08_11_13_58_1_ulwctg_n \
+    vendor/meizu/m3s/proprietary/etc/mddb/DbgInfo_LR11.W1539.MD.MP_GR6750_66_L_MOLY_LR11_W1539_MD_MP_V19_P67_2016_12_05_10_01_1_ulwctg_n:system/etc/mddb/DbgInfo_LR11.W1539.MD.MP_GR6750_66_L_MOLY_LR11_W1539_MD_MP_V19_P67_2016_12_05_10_01_1_ulwctg_n \
+    vendor/meizu/m3s/proprietary/etc/mddb/DbgInfo_LR11.W1539.MD.MP_GR6750_66_L_MOLY_LR11_W1539_MD_MP_V19_P75_2017_07_19_14_43_1_ulwctg_n:system/etc/mddb/DbgInfo_LR11.W1539.MD.MP_GR6750_66_L_MOLY_LR11_W1539_MD_MP_V19_P75_2017_07_19_14_43_1_ulwctg_n \
+    vendor/meizu/m3s/proprietary/etc/mddb/MDDB.C2K.META_MT6750_S00_SIXTH_CBP_MD_MP3_V28_P28_3_3g_n.EDB:system/etc/mddb/MDDB.C2K.META_MT6750_S00_SIXTH_CBP_MD_MP3_V28_P28_3_3g_n.EDB \
+    vendor/meizu/m3s/proprietary/etc/mddb/MDDB.C2K.META_MT6750_S00_SIXTH_CBP_MD_MP3_V28_P36_3_3g_n.EDB:system/etc/mddb/MDDB.C2K.META_MT6750_S00_SIXTH_CBP_MD_MP3_V28_P36_3_3g_n.EDB \
+    vendor/meizu/m3s/proprietary/etc/mddb/MDDB.C2K.META_MT6750_S00_SIXTH_CBP_MD_MP3_V28_P42_3_3g_n.EDB:system/etc/mddb/MDDB.C2K.META_MT6750_S00_SIXTH_CBP_MD_MP3_V28_P42_3_3g_n.EDB \
+    vendor/meizu/m3s/proprietary/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P58_1_ulwctg_n.EDB:system/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P58_1_ulwctg_n.EDB \
+    vendor/meizu/m3s/proprietary/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P67_1_ulwctg_n.EDB:system/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P67_1_ulwctg_n.EDB \
+    vendor/meizu/m3s/proprietary/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P75_1_ulwctg_n.EDB:system/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P75_1_ulwctg_n.EDB \
+    vendor/meizu/m3s/proprietary/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat:system/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat \
 # end of blobs
