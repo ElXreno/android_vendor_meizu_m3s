@@ -29,10 +29,10 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/bin/atcid:system/bin/atcid \
  vendor/meizu/m3s/proprietary/bin/atci_service:system/bin/atci_service \
  vendor/meizu/m3s/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
+ vendor/meizu/m3s/proprietary/bin/autokd:system/bin/autokd \
+ vendor/meizu/m3s/proprietary/bin/batterywarning:system/bin/batterywarning \
  vendor/meizu/m3s/proprietary/bin/bmm050d:system/bin/bmm050d \
  vendor/meizu/m3s/proprietary/bin/boot_logo_updater:system/bin/boot_logo_updater \
- vendor/meizu/m3s/proprietary/bin/btconfig:system/bin/btconfig \
- vendor/meizu/m3s/proprietary/bin/btlogmask:system/bin/btlogmask \
  vendor/meizu/m3s/proprietary/bin/ccci_fsd:system/bin/ccci_fsd \
  vendor/meizu/m3s/proprietary/bin/ccci_mdinit:system/bin/ccci_mdinit \
  vendor/meizu/m3s/proprietary/bin/dhcp6c:system/bin/dhcp6c \
@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/bin/emdlogger1:system/bin/emdlogger1 \
  vendor/meizu/m3s/proprietary/bin/em_svr:system/bin/em_svr \
  vendor/meizu/m3s/proprietary/bin/fsck_msdos_mtk:system/bin/fsck_msdos_mtk \
+ vendor/meizu/m3s/proprietary/bin/fuelgauged:system/bin/fuelgauged \
  vendor/meizu/m3s/proprietary/bin/gas_srv:system/bin/gas_srv \
  vendor/meizu/m3s/proprietary/bin/ged_srv:system/bin/ged_srv \
  vendor/meizu/m3s/proprietary/bin/geomagneticd:system/bin/geomagneticd \
@@ -50,18 +51,18 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/bin/gsm0710muxdmd2:system/bin/gsm0710muxdmd2 \
  vendor/meizu/m3s/proprietary/bin/guiext-server:system/bin/guiext-server \
  vendor/meizu/m3s/proprietary/bin/kpoc_charger:system/bin/kpoc_charger \
+ vendor/meizu/m3s/proprietary/bin/lcdc_screen_cap:system/bin/lcdc_screen_cap \
  vendor/meizu/m3s/proprietary/bin/lsm303md:system/bin/lsm303md \
  vendor/meizu/m3s/proprietary/bin/magd:system/bin/magd \
  vendor/meizu/m3s/proprietary/bin/matv:system/bin/matv \
  vendor/meizu/m3s/proprietary/bin/mc6420d:system/bin/mc6420d \
- vendor/meizu/m3s/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
  vendor/meizu/m3s/proprietary/bin/md_ctrl:system/bin/md_ctrl \
  vendor/meizu/m3s/proprietary/bin/mdlogger:system/bin/mdlogger \
  vendor/meizu/m3s/proprietary/bin/memsicd:system/bin/memsicd \
  vendor/meizu/m3s/proprietary/bin/memsicd3416x:system/bin/memsicd3416x \
+ vendor/meizu/m3s/proprietary/bin/memsicd3524x:system/bin/memsicd3524x \
  vendor/meizu/m3s/proprietary/bin/mfv_ut:system/bin/mfv_ut \
  vendor/meizu/m3s/proprietary/bin/mobile_log_d:system/bin/mobile_log_d \
- vendor/meizu/m3s/proprietary/bin/msensord:system/bin/msensord \
  vendor/meizu/m3s/proprietary/bin/msensord:system/bin/msensord \
  vendor/meizu/m3s/proprietary/bin/mtk_agpsd:system/bin/mtk_agpsd \
  vendor/meizu/m3s/proprietary/bin/mtkbt:system/bin/mtkbt \
@@ -76,11 +77,11 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/bin/orientationd:system/bin/orientationd \
  vendor/meizu/m3s/proprietary/bin/permission_check:system/bin/permission_check \
  vendor/meizu/m3s/proprietary/bin/ppl_agent:system/bin/ppl_agent \
- vendor/meizu/m3s/proprietary/bin/pppd_btdun:system/bin/pppd_btdun \
+ vendor/meizu/m3s/proprietary/bin/pppd:system/bin/pppd \
  vendor/meizu/m3s/proprietary/bin/pppd_dt:system/bin/pppd_dt \
- vendor/meizu/m3s/proprietary/bin/pppd_via:system/bin/pppd_via \
  vendor/meizu/m3s/proprietary/bin/pq:system/bin/pq \
  vendor/meizu/m3s/proprietary/bin/program_binary_service:system/bin/program_binary_service \
+ vendor/meizu/m3s/proprietary/bin/qmcX983d:system/bin/qmcX983d \
  vendor/meizu/m3s/proprietary/bin/radvd:system/bin/radvd \
  vendor/meizu/m3s/proprietary/bin/s62xd:system/bin/s62xd \
  vendor/meizu/m3s/proprietary/bin/sn:system/bin/sn \
@@ -88,13 +89,9 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/bin/stp_dump3:system/bin/stp_dump3 \
  vendor/meizu/m3s/proprietary/bin/terservice:system/bin/terservice \
  vendor/meizu/m3s/proprietary/bin/thermal:system/bin/thermal \
- vendor/meizu/m3s/proprietary/bin/thermalloadalgod:system/bin/thermalloadalgod \
+ vendor/meizu/m3s/proprietary/bin/thermald:system/bin/thermald \
  vendor/meizu/m3s/proprietary/bin/thermal_manager:system/bin/thermal_manager \
- vendor/meizu/m3s/proprietary/bin/viaradiooptions:system/bin/viaradiooptions \
- vendor/meizu/m3s/proprietary/bin/viarild:system/bin/viarild \
- vendor/meizu/m3s/proprietary/bin/volte_imcb:system/bin/volte_imcb \
- vendor/meizu/m3s/proprietary/bin/volte_stack:system/bin/volte_stack \
- vendor/meizu/m3s/proprietary/bin/volte_ua:system/bin/volte_ua \
+ vendor/meizu/m3s/proprietary/bin/uiautomator:system/bin/uiautomator \
  vendor/meizu/m3s/proprietary/bin/vtservice:system/bin/vtservice \
  vendor/meizu/m3s/proprietary/bin/wifi2agps:system/bin/wifi2agps \
  vendor/meizu/m3s/proprietary/bin/wmt_loader:system/bin/wmt_loader \
@@ -162,6 +159,12 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/etc/audio_param/VolumeGainMap_AudioParam.xml:system/etc/audio_param/VolumeGainMap_AudioParam.xml \
  vendor/meizu/m3s/proprietary/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml:system/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml \
  vendor/meizu/m3s/proprietary/etc/audio_param/Volume_ParamUnitDesc.xml:system/etc/audio_param/Volume_ParamUnitDesc.xml \
+ vendor/meizu/m3s/proprietary/etc/audio_policy.conf:system/etc/audio_policy.conf \
+ vendor/meizu/m3s/proprietary/etc/bluetooth/auto_pair_blacklist.conf:system/etc/bluetooth/auto_pair_blacklist.conf \
+ vendor/meizu/m3s/proprietary/etc/bluetooth/auto_pair_devlist.conf:system/etc/bluetooth/auto_pair_devlist.conf \
+ vendor/meizu/m3s/proprietary/etc/bluetooth/btconfig.xml:system/etc/bluetooth/btconfig.xml \
+ vendor/meizu/m3s/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
+ vendor/meizu/m3s/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
  vendor/meizu/m3s/proprietary/etc/custom.conf:system/etc/custom.conf \
  vendor/meizu/m3s/proprietary/etc/firmware/catcher_filter_1_ulwctg_n.bin:system/etc/firmware/catcher_filter_1_ulwctg_n.bin \
  vendor/meizu/m3s/proprietary/etc/firmware/catcher_filter_3_3g_n.bin:system/etc/firmware/catcher_filter_3_3g_n.bin \
@@ -180,47 +183,33 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_lm_patch_1_1_hdr.bin \
  vendor/meizu/m3s/proprietary/etc/firmware/WIFI_RAM_CODE_6755:system/etc/firmware/WIFI_RAM_CODE_6755 \
  vendor/meizu/m3s/proprietary/etc/firmware/WMT_SOC.cfg:system/etc/firmware/WMT_SOC.cfg \
- vendor/meizu/m3s/proprietary/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P75_2017_07_17_16_05_1_ulwctg_n:system/etc/mddb/DbgInfo_DSP_MT6750_MOLY_LR11_W1539_MD_MP_V19_P75_2017_07_17_16_05_1_ulwctg_n \
- vendor/meizu/m3s/proprietary/etc/mddb/DbgInfo_LR11.W1539.MD.MP_GR6750_66_L_MOLY_LR11_W1539_MD_MP_V19_P75_2017_07_19_14_43_1_ulwctg_n:system/etc/mddb/DbgInfo_LR11.W1539.MD.MP_GR6750_66_L_MOLY_LR11_W1539_MD_MP_V19_P75_2017_07_19_14_43_1_ulwctg_n \
- vendor/meizu/m3s/proprietary/etc/mddb/MDDB.C2K.META_MT6750_S00_SIXTH_CBP_MD_MP3_V28_P42_3_3g_n.EDB:system/etc/mddb/MDDB.C2K.META_MT6750_S00_SIXTH_CBP_MD_MP3_V28_P42_3_3g_n.EDB \
- vendor/meizu/m3s/proprietary/etc/mddb/MDDB_InfoCustomAppSrcP_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P75_1_ulwctg_n.EDB:system/etc/mddb/MDDB_InfoCustomAppSrcP_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P75_1_ulwctg_n.EDB \
- vendor/meizu/m3s/proprietary/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P75_1_ulwctg_n.EDB:system/etc/mddb/MDDB.META_MT6750_S00_MOLY_LR11_W1539_MD_MP_V19_P75_1_ulwctg_n.EDB \
- vendor/meizu/m3s/proprietary/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat:system/etc/mddb/mdm_layout_desc_1_ulwctg_n.dat \
  vendor/meizu/m3s/proprietary/etc/mtklog-config.prop:system/etc/mtklog-config.prop \
  vendor/meizu/m3s/proprietary/etc/mtk_omx_core.cfg:system/etc/mtk_omx_core.cfg \
+ vendor/meizu/m3s/proprietary/etc/perfservscntbl.txt:system/etc/perfservscntbl.txt \
  vendor/meizu/m3s/proprietary/etc/radvd/radvd.conf:system/etc/radvd/radvd.conf \
- vendor/meizu/m3s/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
  vendor/meizu/m3s/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
- vendor/meizu/m3s/proprietary/etc/.tp/.thermal_meta.conf:system/etc/.tp/.thermal_meta.conf \
+ vendor/meizu/m3s/proprietary/etc/.tp/thermal.high.conf:system/etc/.tp/thermal.high.conf \
+ vendor/meizu/m3s/proprietary/etc/.tp/thermal.low.conf:system/etc/.tp/thermal.low.conf \
+ vendor/meizu/m3s/proprietary/etc/.tp/thermal.mid.conf:system/etc/.tp/thermal.mid.conf \
  vendor/meizu/m3s/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
- vendor/meizu/m3s/proprietary/etc/.tp/.thermal_policy_00:system/etc/.tp/.thermal_policy_00 \
- vendor/meizu/m3s/proprietary/etc/.tp/.thermal_policy_01:system/etc/.tp/.thermal_policy_01 \
- vendor/meizu/m3s/proprietary/etc/.tp/.thermal_policy_02:system/etc/.tp/.thermal_policy_02 \
- vendor/meizu/m3s/proprietary/etc/wide-dhcpv6/dhcp6c.conf:system/etc/wide-dhcpv6/dhcp6c.conf \
- vendor/meizu/m3s/proprietary/etc/wide-dhcpv6/dhcp6cctlkey:system/etc/wide-dhcpv6/dhcp6cctlkey \
- vendor/meizu/m3s/proprietary/etc/wide-dhcpv6/dhcp6cDNS.conf:system/etc/wide-dhcpv6/dhcp6cDNS.conf \
- vendor/meizu/m3s/proprietary/etc/wide-dhcpv6/dhcp6c.script:system/etc/wide-dhcpv6/dhcp6c.script \
- vendor/meizu/m3s/proprietary/etc/wide-dhcpv6/dhcp6s.conf:system/etc/wide-dhcpv6/dhcp6s.conf \
  vendor/meizu/m3s/proprietary/etc/wifi/p2p_supplicant_overlay.conf:system/etc/wifi/p2p_supplicant_overlay.conf \
  vendor/meizu/m3s/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
  vendor/meizu/m3s/proprietary/etc/wifi/wpa_supplicant_overlay.conf:system/etc/wifi/wpa_supplicant_overlay.conf \
- vendor/meizu/m3s/proprietary/lib64/egl/libGLES_android.so:system/lib64/egl/libGLES_android.so \
  vendor/meizu/m3s/proprietary/lib64/egl/libGLES_mali.so:system/lib64/egl/libGLES_mali.so \
  vendor/meizu/m3s/proprietary/lib64/hw/audio.primary.mt6750.so:system/lib64/hw/audio.primary.mt6750.so \
  vendor/meizu/m3s/proprietary/lib64/hw/camera.mt6750.so:system/lib64/hw/camera.mt6750.so \
  vendor/meizu/m3s/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
  vendor/meizu/m3s/proprietary/lib64/hw/gralloc.mt6750.so:system/lib64/hw/gralloc.mt6750.so \
  vendor/meizu/m3s/proprietary/lib64/hw/hwcomposer.mt6750.so:system/lib64/hw/hwcomposer.mt6750.so \
- vendor/meizu/m3s/proprietary/lib64/hw/keystore.mt6750.so:system/lib64/hw/keystore.mt6750.so \
- vendor/meizu/m3s/proprietary/lib64/hw/keystore.mt6750.so:system/lib64/hw/keystore.mt6750.so \
  vendor/meizu/m3s/proprietary/lib64/hw/lights.default.so:system/lib64/hw/lights.default.so \
+ vendor/meizu/m3s/proprietary/lib64/hw/mmsdk.default.so:system/lib64/hw/mmsdk.default.so \
  vendor/meizu/m3s/proprietary/lib64/hw/sensors.mt6750.so:system/lib64/hw/sensors.mt6750.so \
  vendor/meizu/m3s/proprietary/lib64/lib3a_sample.so:system/lib64/lib3a_sample.so \
  vendor/meizu/m3s/proprietary/lib64/lib3a.so:system/lib64/lib3a.so \
  vendor/meizu/m3s/proprietary/lib64/liba3m.so:system/lib64/liba3m.so \
- vendor/meizu/m3s/proprietary/lib64/libaal.so:system/lib64/libaal.so \
  vendor/meizu/m3s/proprietary/lib64/libacdk.so:system/lib64/libacdk.so \
  vendor/meizu/m3s/proprietary/lib64/libaed.so:system/lib64/libaed.so \
+ vendor/meizu/m3s/proprietary/lib64/libarcsoft_makeup.so:system/lib64/libarcsoft_makeup.so \
  vendor/meizu/m3s/proprietary/lib64/libatciserv_jni.so:system/lib64/libatciserv_jni.so \
  vendor/meizu/m3s/proprietary/lib64/libatvctrlservice.so:system/lib64/libatvctrlservice.so \
  vendor/meizu/m3s/proprietary/lib64/libaudiocompensationfilter.so:system/lib64/libaudiocompensationfilter.so \
@@ -228,6 +217,8 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib64/libaudiocustparam.so:system/lib64/libaudiocustparam.so \
  vendor/meizu/m3s/proprietary/lib64/libaudiodcrflt.so:system/lib64/libaudiodcrflt.so \
  vendor/meizu/m3s/proprietary/lib64/libaudio_param_parser.so:system/lib64/libaudio_param_parser.so \
+ vendor/meizu/m3s/proprietary/lib64/libaudiopolicymanagerdefault.so:system/lib64/libaudiopolicymanagerdefault.so \
+ vendor/meizu/m3s/proprietary/lib64/libaudiopolicymanager.so:system/lib64/libaudiopolicymanager.so \
  vendor/meizu/m3s/proprietary/lib64/libaudiosetting.so:system/lib64/libaudiosetting.so \
  vendor/meizu/m3s/proprietary/lib64/libbessound_hd_mtk.so:system/lib64/libbessound_hd_mtk.so \
  vendor/meizu/m3s/proprietary/lib64/libblisrc32.so:system/lib64/libblisrc32.so \
@@ -253,6 +244,7 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib64/libcam.camnode.so:system/lib64/libcam.camnode.so \
  vendor/meizu/m3s/proprietary/lib64/libcam.camshot.so:system/lib64/libcam.camshot.so \
  vendor/meizu/m3s/proprietary/lib64/libcam.client.so:system/lib64/libcam.client.so \
+ vendor/meizu/m3s/proprietary/lib64/libcam.common.meizu.so:system/lib64/libcam.common.meizu.so \
  vendor/meizu/m3s/proprietary/lib64/libcam.device1.so:system/lib64/libcam.device1.so \
  vendor/meizu/m3s/proprietary/lib64/libcam.device3.so:system/lib64/libcam.device3.so \
  vendor/meizu/m3s/proprietary/lib64/libcamdrv.so:system/lib64/libcamdrv.so \
@@ -276,6 +268,8 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib64/libcam.utils.so:system/lib64/libcam.utils.so \
  vendor/meizu/m3s/proprietary/lib64/libcam_utils.so:system/lib64/libcam_utils.so \
  vendor/meizu/m3s/proprietary/lib64/libccci_util.so:system/lib64/libccci_util.so \
+ vendor/meizu/m3s/proprietary/lib64/libcfgdevparam.so:system/lib64/libcfgdevparam.so \
+ vendor/meizu/m3s/proprietary/lib64/libcurl.so:system/lib64/libcurl.so \
  vendor/meizu/m3s/proprietary/lib64/libcustom_jni.so:system/lib64/libcustom_jni.so \
  vendor/meizu/m3s/proprietary/lib64/libcustom_nvram.so:system/lib64/libcustom_nvram.so \
  vendor/meizu/m3s/proprietary/lib64/libcustom_prop.so:system/lib64/libcustom_prop.so \
@@ -286,6 +280,9 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib64/libdpframework.so:system/lib64/libdpframework.so \
  vendor/meizu/m3s/proprietary/lib64/libdrmmtkutil.so:system/lib64/libdrmmtkutil.so \
  vendor/meizu/m3s/proprietary/lib64/libdrmmtkwhitelist.so:system/lib64/libdrmmtkwhitelist.so \
+ vendor/meizu/m3s/proprietary/lib64/libeffect.facebeautypp.so:system/lib64/libeffect.facebeautypp.so \
+ vendor/meizu/m3s/proprietary/lib64/libeffecthal.JPG.so:system/lib64/libeffecthal.JPG.so \
+ vendor/meizu/m3s/proprietary/lib64/libEGL.so:system/lib64/libEGL.so \
  vendor/meizu/m3s/proprietary/lib64/libem_bt_jni.so:system/lib64/libem_bt_jni.so \
  vendor/meizu/m3s/proprietary/lib64/libem_gpio_jni.so:system/lib64/libem_gpio_jni.so \
  vendor/meizu/m3s/proprietary/lib64/libem_lte_jni.so:system/lib64/libem_lte_jni.so \
@@ -294,23 +291,26 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib64/libem_support_jni.so:system/lib64/libem_support_jni.so \
  vendor/meizu/m3s/proprietary/lib64/libem_usb_jni.so:system/lib64/libem_usb_jni.so \
  vendor/meizu/m3s/proprietary/lib64/libem_wifi_jni.so:system/lib64/libem_wifi_jni.so \
- vendor/meizu/m3s/proprietary/lib64/libextadvanced_jni.so:system/lib64/libextadvanced_jni.so \
  vendor/meizu/m3s/proprietary/lib64/libextem.so:system/lib64/libextem.so \
- vendor/meizu/m3s/proprietary/lib64/libextsys_jni.so:system/lib64/libextsys_jni.so \
  vendor/meizu/m3s/proprietary/lib64/libextsys.so:system/lib64/libextsys.so \
+ vendor/meizu/m3s/proprietary/lib64/libfeatureio.cfb.so:system/lib64/libfeatureio.cfb.so \
  vendor/meizu/m3s/proprietary/lib64/libfeatureiodrv.so:system/lib64/libfeatureiodrv.so \
+ vendor/meizu/m3s/proprietary/lib64/libfeatureio.featurefactory.so:system/lib64/libfeatureio.featurefactory.so \
+ vendor/meizu/m3s/proprietary/lib64/libfeatureio.jpg.so:system/lib64/libfeatureio.jpg.so \
  vendor/meizu/m3s/proprietary/lib64/libfeatureio.so:system/lib64/libfeatureio.so \
  vendor/meizu/m3s/proprietary/lib64/libfile_op.so:system/lib64/libfile_op.so \
+ vendor/meizu/m3s/proprietary/lib64/libfilter_effects.so:system/lib64/libfilter_effects.so \
  vendor/meizu/m3s/proprietary/lib64/libgas.so:system/lib64/libgas.so \
  vendor/meizu/m3s/proprietary/lib64/libGdmaScalerPipe.so:system/lib64/libGdmaScalerPipe.so \
  vendor/meizu/m3s/proprietary/lib64/libged.so:system/lib64/libged.so \
+ vendor/meizu/m3s/proprietary/lib64/libGLES_trace.so:system/lib64/libGLES_trace.so \
+ vendor/meizu/m3s/proprietary/lib64/libGLESv1_CM.so:system/lib64/libGLESv1_CM.so \
+ vendor/meizu/m3s/proprietary/lib64/libGLESv2.so:system/lib64/libGLESv2.so \
+ vendor/meizu/m3s/proprietary/lib64/libGLESv3.so:system/lib64/libGLESv3.so \
  vendor/meizu/m3s/proprietary/lib64/libgpu_aux.so:system/lib64/libgpu_aux.so \
  vendor/meizu/m3s/proprietary/lib64/libgralloc_extra.so:system/lib64/libgralloc_extra.so \
- vendor/meizu/m3s/proprietary/lib64/libgraphite2.so:system/lib64/libgraphite2.so \
  vendor/meizu/m3s/proprietary/lib64/libgui_ext.so:system/lib64/libgui_ext.so \
  vendor/meizu/m3s/proprietary/lib64/libhdrproc.so:system/lib64/libhdrproc.so \
- vendor/meizu/m3s/proprietary/lib64/libhotknot.so:system/lib64/libhotknot.so \
- vendor/meizu/m3s/proprietary/lib64/libhotknot_vendor.so:system/lib64/libhotknot_vendor.so \
  vendor/meizu/m3s/proprietary/lib64/libhwm.so:system/lib64/libhwm.so \
  vendor/meizu/m3s/proprietary/lib64/libimageio_plat_drv.so:system/lib64/libimageio_plat_drv.so \
  vendor/meizu/m3s/proprietary/lib64/libimageio.so:system/lib64/libimageio.so \
@@ -322,9 +322,6 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib64/libJpgEncPipe.so:system/lib64/libJpgEncPipe.so \
  vendor/meizu/m3s/proprietary/lib64/libm4u.so:system/lib64/libm4u.so \
  vendor/meizu/m3s/proprietary/lib64/libmatv_cust.so:system/lib64/libmatv_cust.so \
- vendor/meizu/m3s/proprietary/lib64/libMcClient.so:system/lib64/libMcClient.so \
- vendor/meizu/m3s/proprietary/lib64/libMcRegistry.so:system/lib64/libMcRegistry.so \
- vendor/meizu/m3s/proprietary/lib64/libMcTeeKeymaster.so:system/lib64/libMcTeeKeymaster.so \
  vendor/meizu/m3s/proprietary/lib64/libmdloggerrecycle.so:system/lib64/libmdloggerrecycle.so \
  vendor/meizu/m3s/proprietary/lib64/libmediatek_exceptionlog.so:system/lib64/libmediatek_exceptionlog.so \
  vendor/meizu/m3s/proprietary/lib64/libmeizucamera.so:system/lib64/libmeizucamera.so \
@@ -335,6 +332,7 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib64/libmmprofile.so:system/lib64/libmmprofile.so \
  vendor/meizu/m3s/proprietary/lib64/libmmsdkservice.feature.so:system/lib64/libmmsdkservice.feature.so \
  vendor/meizu/m3s/proprietary/lib64/libmmsdkservice.so:system/lib64/libmmsdkservice.so \
+ vendor/meizu/m3s/proprietary/lib64/libmpbase.so:system/lib64/libmpbase.so \
  vendor/meizu/m3s/proprietary/lib64/libmrdump.so:system/lib64/libmrdump.so \
  vendor/meizu/m3s/proprietary/lib64/libmsbc_mtk.so:system/lib64/libmsbc_mtk.so \
  vendor/meizu/m3s/proprietary/lib64/libmtk_drvb.so:system/lib64/libmtk_drvb.so \
@@ -351,12 +349,14 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib64/libMtkOmxMp3Dec.so:system/lib64/libMtkOmxMp3Dec.so \
  vendor/meizu/m3s/proprietary/lib64/libMtkOmxRawDec.so:system/lib64/libMtkOmxRawDec.so \
  vendor/meizu/m3s/proprietary/lib64/libMtkOmxVorbisEnc.so:system/lib64/libMtkOmxVorbisEnc.so \
- vendor/meizu/m3s/proprietary/lib64/libmtkplayer.so:system/lib64/libmtkplayer.so \
  vendor/meizu/m3s/proprietary/lib64/libmtkshifter.so:system/lib64/libmtkshifter.so \
+ vendor/meizu/m3s/proprietary/lib64/libmtksqlite3_android.so:system/lib64/libmtksqlite3_android.so \
+ vendor/meizu/m3s/proprietary/lib64/libmtksqlite3_custom.so:system/lib64/libmtksqlite3_custom.so \
  vendor/meizu/m3s/proprietary/lib64/libMtkVideoTranscoder.so:system/lib64/libMtkVideoTranscoder.so \
  vendor/meizu/m3s/proprietary/lib64/libn3d3a.so:system/lib64/libn3d3a.so \
  vendor/meizu/m3s/proprietary/lib64/libnativecheck-jni.so:system/lib64/libnativecheck-jni.so \
  vendor/meizu/m3s/proprietary/lib64/libnetutils.so:system/lib64/libnetutils.so \
+ vendor/meizu/m3s/proprietary/lib64/libnfc_ndef.so:system/lib64/libnfc_ndef.so \
  vendor/meizu/m3s/proprietary/lib64/libnvramagentclient.so:system/lib64/libnvramagentclient.so \
  vendor/meizu/m3s/proprietary/lib64/libnvram_daemon_callback.so:system/lib64/libnvram_daemon_callback.so \
  vendor/meizu/m3s/proprietary/lib64/libnvram_platform.so:system/lib64/libnvram_platform.so \
@@ -364,55 +364,55 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib64/libnvram.so:system/lib64/libnvram.so \
  vendor/meizu/m3s/proprietary/lib64/libperfservicenative.so:system/lib64/libperfservicenative.so \
  vendor/meizu/m3s/proprietary/lib64/libperfservice.so:system/lib64/libperfservice.so \
- vendor/meizu/m3s/proprietary/lib64/libpppbtdun.so:system/lib64/libpppbtdun.so \
  vendor/meizu/m3s/proprietary/lib64/libpq_cust.so:system/lib64/libpq_cust.so \
  vendor/meizu/m3s/proprietary/lib64/libPQDCjni.so:system/lib64/libPQDCjni.so \
  vendor/meizu/m3s/proprietary/lib64/libPQjni.so:system/lib64/libPQjni.so \
  vendor/meizu/m3s/proprietary/lib64/libpq_prot.so:system/lib64/libpq_prot.so \
  vendor/meizu/m3s/proprietary/lib64/libpqservice.so:system/lib64/libpqservice.so \
+ vendor/meizu/m3s/proprietary/lib64/librender_engine.so:system/lib64/librender_engine.so \
  vendor/meizu/m3s/proprietary/lib64/librilmtkmd2.so:system/lib64/librilmtkmd2.so \
  vendor/meizu/m3s/proprietary/lib64/librilmtk.so:system/lib64/librilmtk.so \
+ vendor/meizu/m3s/proprietary/lib64/libSonyIMX230PdafLibrary.so:system/lib64/libSonyIMX230PdafLibrary.so \
  vendor/meizu/m3s/proprietary/lib64/libspeech_enh_lib.so:system/lib64/libspeech_enh_lib.so \
  vendor/meizu/m3s/proprietary/lib64/libstagefrighthw.so:system/lib64/libstagefrighthw.so \
  vendor/meizu/m3s/proprietary/lib64/libSwJpgCodec.so:system/lib64/libSwJpgCodec.so \
  vendor/meizu/m3s/proprietary/lib64/libterservice.so:system/lib64/libterservice.so \
+ vendor/meizu/m3s/proprietary/lib64/libtinyalsa.so:system/lib64/libtinyalsa.so \
+ vendor/meizu/m3s/proprietary/lib64/libtinycompress.so:system/lib64/libtinycompress.so \
+ vendor/meizu/m3s/proprietary/lib64/libtinyxml.so:system/lib64/libtinyxml.so \
  vendor/meizu/m3s/proprietary/lib64/libtouchfilter.so:system/lib64/libtouchfilter.so \
  vendor/meizu/m3s/proprietary/lib64/libudf.so:system/lib64/libudf.so \
  vendor/meizu/m3s/proprietary/lib64/libui_ext.so:system/lib64/libui_ext.so \
  vendor/meizu/m3s/proprietary/lib64/libui.so:system/lib64/libui.so \
  vendor/meizu/m3s/proprietary/lib64/libvcodecdrv.so:system/lib64/libvcodecdrv.so \
  vendor/meizu/m3s/proprietary/lib64/libvcodec_utility.so:system/lib64/libvcodec_utility.so \
+ vendor/meizu/m3s/proprietary/lib64/libvfb_render.so:system/lib64/libvfb_render.so \
  vendor/meizu/m3s/proprietary/lib64/libwapi.so:system/lib64/libwapi.so \
  vendor/meizu/m3s/proprietary/lib64/libwifitest.so:system/lib64/libwifitest.so \
  vendor/meizu/m3s/proprietary/lib64/mtk-rilmd2.so:system/lib64/mtk-rilmd2.so \
  vendor/meizu/m3s/proprietary/lib64/mtk-ril.so:system/lib64/mtk-ril.so \
- vendor/meizu/m3s/proprietary/lib64/soundfx/libaudiopreprocessing.so:system/lib64/soundfx/libaudiopreprocessing.so \
- vendor/meizu/m3s/proprietary/lib64/soundfx/libbundlewrapper.so:system/lib64/soundfx/libbundlewrapper.so \
- vendor/meizu/m3s/proprietary/lib64/soundfx/libdownmix.so:system/lib64/soundfx/libdownmix.so \
- vendor/meizu/m3s/proprietary/lib64/soundfx/libeffectproxy.so:system/lib64/soundfx/libeffectproxy.so \
- vendor/meizu/m3s/proprietary/lib64/soundfx/libldnhncr.so:system/lib64/soundfx/libldnhncr.so \
- vendor/meizu/m3s/proprietary/lib64/soundfx/libreverbwrapper.so:system/lib64/soundfx/libreverbwrapper.so \
- vendor/meizu/m3s/proprietary/lib64/soundfx/libvisualizer.so:system/lib64/soundfx/libvisualizer.so \
  vendor/meizu/m3s/proprietary/lib/drm/libdrmmtkplugin.so:system/lib/drm/libdrmmtkplugin.so \
- vendor/meizu/m3s/proprietary/lib/egl/libGLES_android.so:system/lib/egl/libGLES_android.so \
  vendor/meizu/m3s/proprietary/lib/egl/libGLES_mali.so:system/lib/egl/libGLES_mali.so \
  vendor/meizu/m3s/proprietary/lib/hw/audio.primary.mt6750.so:system/lib/hw/audio.primary.mt6750.so \
  vendor/meizu/m3s/proprietary/lib/hw/camera.mt6750.so:system/lib/hw/camera.mt6750.so \
  vendor/meizu/m3s/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
+ vendor/meizu/m3s/proprietary/lib/hw/gralloc.default.so:system/lib/hw/gralloc.default.so \
  vendor/meizu/m3s/proprietary/lib/hw/gralloc.mt6750.so:system/lib/hw/gralloc.mt6750.so \
  vendor/meizu/m3s/proprietary/lib/hw/hwcomposer.mt6750.so:system/lib/hw/hwcomposer.mt6750.so \
- vendor/meizu/m3s/proprietary/lib/hw/keystore.mt6750.so:system/lib/hw/keystore.mt6750.so \
- vendor/meizu/m3s/proprietary/lib/hw/keystore.mt6750.so:system/lib/hw/keystore.mt6750.so \
+ vendor/meizu/m3s/proprietary/lib/hw/keystore.default.so:system/lib/hw/keystore.default.so \
  vendor/meizu/m3s/proprietary/lib/hw/lights.default.so:system/lib/hw/lights.default.so \
+ vendor/meizu/m3s/proprietary/lib/hw/local_time.default.so:system/lib/hw/local_time.default.so \
+ vendor/meizu/m3s/proprietary/lib/hw/mmsdk.default.so:system/lib/hw/mmsdk.default.so \
+ vendor/meizu/m3s/proprietary/lib/hw/power.default.so:system/lib/hw/power.default.so \
  vendor/meizu/m3s/proprietary/lib/hw/sensors.mt6750.so:system/lib/hw/sensors.mt6750.so \
+ vendor/meizu/m3s/proprietary/lib/hw/vibrator.default.so:system/lib/hw/vibrator.default.so \
  vendor/meizu/m3s/proprietary/lib/lib3a_sample.so:system/lib/lib3a_sample.so \
  vendor/meizu/m3s/proprietary/lib/lib3a.so:system/lib/lib3a.so \
  vendor/meizu/m3s/proprietary/lib/liba3m.so:system/lib/liba3m.so \
- vendor/meizu/m3s/proprietary/lib/libaal.so:system/lib/libaal.so \
  vendor/meizu/m3s/proprietary/lib/libacdk.so:system/lib/libacdk.so \
  vendor/meizu/m3s/proprietary/lib/libadpcm.so:system/lib/libadpcm.so \
  vendor/meizu/m3s/proprietary/lib/libaed.so:system/lib/libaed.so \
- vendor/meizu/m3s/proprietary/lib/libAGifEncoder.so:system/lib/libAGifEncoder.so \
+ vendor/meizu/m3s/proprietary/lib/libarcsoft_makeup.so:system/lib/libarcsoft_makeup.so \
  vendor/meizu/m3s/proprietary/lib/libatciserv_jni.so:system/lib/libatciserv_jni.so \
  vendor/meizu/m3s/proprietary/lib/libatvctrlservice.so:system/lib/libatvctrlservice.so \
  vendor/meizu/m3s/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
@@ -421,6 +421,7 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib/libaudiodcrflt.so:system/lib/libaudiodcrflt.so \
  vendor/meizu/m3s/proprietary/lib/libaudiomtkdcremoval.so:system/lib/libaudiomtkdcremoval.so \
  vendor/meizu/m3s/proprietary/lib/libaudio_param_parser.so:system/lib/libaudio_param_parser.so \
+ vendor/meizu/m3s/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
  vendor/meizu/m3s/proprietary/lib/libaudiosetting.so:system/lib/libaudiosetting.so \
  vendor/meizu/m3s/proprietary/lib/libbessound_hd_mtk.so:system/lib/libbessound_hd_mtk.so \
  vendor/meizu/m3s/proprietary/lib/libbessurround_mtk.so:system/lib/libbessurround_mtk.so \
@@ -433,13 +434,11 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib/libBnMtkCodec.so:system/lib/libBnMtkCodec.so \
  vendor/meizu/m3s/proprietary/lib/libbtcust.so:system/lib/libbtcust.so \
  vendor/meizu/m3s/proprietary/lib/libbtcusttable.so:system/lib/libbtcusttable.so \
- vendor/meizu/m3s/proprietary/lib/libbtcusttc1.so:system/lib/libbtcusttc1.so \
  vendor/meizu/m3s/proprietary/lib/libbtem.so:system/lib/libbtem.so \
- vendor/meizu/m3s/proprietary/lib/libbtpcm.so:system/lib/libbtpcm.so \
  vendor/meizu/m3s/proprietary/lib/libbtsession.so:system/lib/libbtsession.so \
- vendor/meizu/m3s/proprietary/lib/libbtsniff.so:system/lib/libbtsniff.so \
  vendor/meizu/m3s/proprietary/lib/libbtstd.so:system/lib/libbtstd.so \
  vendor/meizu/m3s/proprietary/lib/libbwc.so:system/lib/libbwc.so \
+ vendor/meizu/m3s/proprietary/lib/libc2kril.so:system/lib/libc2kril.so \
  vendor/meizu/m3s/proprietary/lib/libc2kutils.so:system/lib/libc2kutils.so \
  vendor/meizu/m3s/proprietary/lib/libcam1_utils.so:system/lib/libcam1_utils.so \
  vendor/meizu/m3s/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
@@ -452,6 +451,7 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib/libcam.camnode.so:system/lib/libcam.camnode.so \
  vendor/meizu/m3s/proprietary/lib/libcam.camshot.so:system/lib/libcam.camshot.so \
  vendor/meizu/m3s/proprietary/lib/libcam.client.so:system/lib/libcam.client.so \
+ vendor/meizu/m3s/proprietary/lib/libcam.common.meizu.so:system/lib/libcam.common.meizu.so \
  vendor/meizu/m3s/proprietary/lib/libcam.device1.so:system/lib/libcam.device1.so \
  vendor/meizu/m3s/proprietary/lib/libcam.device3.so:system/lib/libcam.device3.so \
  vendor/meizu/m3s/proprietary/lib/libcamdrv.so:system/lib/libcamdrv.so \
@@ -475,6 +475,8 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
  vendor/meizu/m3s/proprietary/lib/libcam_utils.so:system/lib/libcam_utils.so \
  vendor/meizu/m3s/proprietary/lib/libccci_util.so:system/lib/libccci_util.so \
+ vendor/meizu/m3s/proprietary/lib/libcfgdevparam.so:system/lib/libcfgdevparam.so \
+ vendor/meizu/m3s/proprietary/lib/libcurl.so:system/lib/libcurl.so \
  vendor/meizu/m3s/proprietary/lib/libcustom_jni.so:system/lib/libcustom_jni.so \
  vendor/meizu/m3s/proprietary/lib/libcustom_nvram.so:system/lib/libcustom_nvram.so \
  vendor/meizu/m3s/proprietary/lib/libcustom_prop.so:system/lib/libcustom_prop.so \
@@ -485,6 +487,9 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib/libdpframework.so:system/lib/libdpframework.so \
  vendor/meizu/m3s/proprietary/lib/libdrmmtkutil.so:system/lib/libdrmmtkutil.so \
  vendor/meizu/m3s/proprietary/lib/libdrmmtkwhitelist.so:system/lib/libdrmmtkwhitelist.so \
+ vendor/meizu/m3s/proprietary/lib/libDR.so:system/lib/libDR.so \
+ vendor/meizu/m3s/proprietary/lib/libeffect.facebeautypp.so:system/lib/libeffect.facebeautypp.so \
+ vendor/meizu/m3s/proprietary/lib/libeffecthal.JPG.so:system/lib/libeffecthal.JPG.so \
  vendor/meizu/m3s/proprietary/lib/libem_bt_jni.so:system/lib/libem_bt_jni.so \
  vendor/meizu/m3s/proprietary/lib/libem_gpio_jni.so:system/lib/libem_gpio_jni.so \
  vendor/meizu/m3s/proprietary/lib/libem_lte_jni.so:system/lib/libem_lte_jni.so \
@@ -493,35 +498,24 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib/libem_support_jni.so:system/lib/libem_support_jni.so \
  vendor/meizu/m3s/proprietary/lib/libem_usb_jni.so:system/lib/libem_usb_jni.so \
  vendor/meizu/m3s/proprietary/lib/libem_wifi_jni.so:system/lib/libem_wifi_jni.so \
- vendor/meizu/m3s/proprietary/lib/libextadvanced_jni.so:system/lib/libextadvanced_jni.so \
- vendor/meizu/m3s/proprietary/lib/libextbip_jni.so:system/lib/libextbip_jni.so \
- vendor/meizu/m3s/proprietary/lib/libextbip.so:system/lib/libextbip.so \
- vendor/meizu/m3s/proprietary/lib/libextbpp_jni.so:system/lib/libextbpp_jni.so \
- vendor/meizu/m3s/proprietary/lib/libextbpp.so:system/lib/libextbpp.so \
- vendor/meizu/m3s/proprietary/lib/libextdun_jni.so:system/lib/libextdun_jni.so \
  vendor/meizu/m3s/proprietary/lib/libextem.so:system/lib/libextem.so \
- vendor/meizu/m3s/proprietary/lib/libextftp_jni.so:system/lib/libextftp_jni.so \
- vendor/meizu/m3s/proprietary/lib/libextftp.so:system/lib/libextftp.so \
- vendor/meizu/m3s/proprietary/lib/libextmap_jni.so:system/lib/libextmap_jni.so \
- vendor/meizu/m3s/proprietary/lib/libextmap.so:system/lib/libextmap.so \
- vendor/meizu/m3s/proprietary/lib/libextsimap_jni.so:system/lib/libextsimap_jni.so \
- vendor/meizu/m3s/proprietary/lib/libextsimap.so:system/lib/libextsimap.so \
- vendor/meizu/m3s/proprietary/lib/libextsys_jni.so:system/lib/libextsys_jni.so \
  vendor/meizu/m3s/proprietary/lib/libextsys.so:system/lib/libextsys.so \
+ vendor/meizu/m3s/proprietary/lib/libfeatureio.cfb.so:system/lib/libfeatureio.cfb.so \
  vendor/meizu/m3s/proprietary/lib/libfeatureiodrv.so:system/lib/libfeatureiodrv.so \
+ vendor/meizu/m3s/proprietary/lib/libfeatureio.featurefactory.so:system/lib/libfeatureio.featurefactory.so \
+ vendor/meizu/m3s/proprietary/lib/libfeatureio.jpg.so:system/lib/libfeatureio.jpg.so \
  vendor/meizu/m3s/proprietary/lib/libfeatureio.so:system/lib/libfeatureio.so \
+ vendor/meizu/m3s/proprietary/lib/libfgauge.so:system/lib/libfgauge.so \
  vendor/meizu/m3s/proprietary/lib/libfile_op.so:system/lib/libfile_op.so \
+ vendor/meizu/m3s/proprietary/lib/libfilter_effects.so:system/lib/libfilter_effects.so \
+ vendor/meizu/m3s/proprietary/lib/libfusion.so:system/lib/libfusion.so \
  vendor/meizu/m3s/proprietary/lib/libgas.so:system/lib/libgas.so \
  vendor/meizu/m3s/proprietary/lib/libGdmaScalerPipe.so:system/lib/libGdmaScalerPipe.so \
  vendor/meizu/m3s/proprietary/lib/libged.so:system/lib/libged.so \
- vendor/meizu/m3s/proprietary/lib/libgifEncoder_jni.so:system/lib/libgifEncoder_jni.so \
  vendor/meizu/m3s/proprietary/lib/libgpu_aux.so:system/lib/libgpu_aux.so \
  vendor/meizu/m3s/proprietary/lib/libgralloc_extra.so:system/lib/libgralloc_extra.so \
- vendor/meizu/m3s/proprietary/lib/libgraphite2.so:system/lib/libgraphite2.so \
  vendor/meizu/m3s/proprietary/lib/libgui_ext.so:system/lib/libgui_ext.so \
  vendor/meizu/m3s/proprietary/lib/libhdrproc.so:system/lib/libhdrproc.so \
- vendor/meizu/m3s/proprietary/lib/libhotknot.so:system/lib/libhotknot.so \
- vendor/meizu/m3s/proprietary/lib/libhotknot_vendor.so:system/lib/libhotknot_vendor.so \
  vendor/meizu/m3s/proprietary/lib/libhwm.so:system/lib/libhwm.so \
  vendor/meizu/m3s/proprietary/lib/libimageio_plat_drv.so:system/lib/libimageio_plat_drv.so \
  vendor/meizu/m3s/proprietary/lib/libimageio.so:system/lib/libimageio.so \
@@ -534,9 +528,6 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib/libJpgEncPipe.so:system/lib/libJpgEncPipe.so \
  vendor/meizu/m3s/proprietary/lib/libm4u.so:system/lib/libm4u.so \
  vendor/meizu/m3s/proprietary/lib/libmatv_cust.so:system/lib/libmatv_cust.so \
- vendor/meizu/m3s/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
- vendor/meizu/m3s/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
- vendor/meizu/m3s/proprietary/lib/libMcTeeKeymaster.so:system/lib/libMcTeeKeymaster.so \
  vendor/meizu/m3s/proprietary/lib/libmdloggerrecycle.so:system/lib/libmdloggerrecycle.so \
  vendor/meizu/m3s/proprietary/lib/libmediatek_exceptionlog.so:system/lib/libmediatek_exceptionlog.so \
  vendor/meizu/m3s/proprietary/lib/libmeizucamera.so:system/lib/libmeizucamera.so \
@@ -549,14 +540,14 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib/libmmsdkservice.so:system/lib/libmmsdkservice.so \
  vendor/meizu/m3s/proprietary/lib/libmnl.so:system/lib/libmnl.so \
  vendor/meizu/m3s/proprietary/lib/libmp4enc_sa.ca7.so:system/lib/libmp4enc_sa.ca7.so \
- vendor/meizu/m3s/proprietary/lib/libmpodecoder.so:system/lib/libmpodecoder.so \
- vendor/meizu/m3s/proprietary/lib/libmpojni.so:system/lib/libmpojni.so \
+ vendor/meizu/m3s/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
+ vendor/meizu/m3s/proprietary/lib/libmpe.driver.so:system/lib/libmpe.driver.so \
+ vendor/meizu/m3s/proprietary/lib/libmpe.sensorlistener.so:system/lib/libmpe.sensorlistener.so \
  vendor/meizu/m3s/proprietary/lib/libmpo.so:system/lib/libmpo.so \
  vendor/meizu/m3s/proprietary/lib/libmrdump.so:system/lib/libmrdump.so \
  vendor/meizu/m3s/proprietary/lib/libmsbc_mtk.so:system/lib/libmsbc_mtk.so \
- vendor/meizu/m3s/proprietary/lib/libmtb.so:system/lib/libmtb.so \
+ vendor/meizu/m3s/proprietary/lib/libm.so:system/lib/libm.so \
  vendor/meizu/m3s/proprietary/lib/libmtcloader.so:system/lib/libmtcloader.so \
- vendor/meizu/m3s/proprietary/lib/libmtkbtextspp.so:system/lib/libmtkbtextspp.so \
  vendor/meizu/m3s/proprietary/lib/libmtk_drvb.so:system/lib/libmtk_drvb.so \
  vendor/meizu/m3s/proprietary/lib/libmtkjpeg.so:system/lib/libmtkjpeg.so \
  vendor/meizu/m3s/proprietary/lib/libmtklimiter.so:system/lib/libmtklimiter.so \
@@ -574,7 +565,6 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
  vendor/meizu/m3s/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
  vendor/meizu/m3s/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
- vendor/meizu/m3s/proprietary/lib/libmtkplayer.so:system/lib/libmtkplayer.so \
  vendor/meizu/m3s/proprietary/lib/libmtkshifter.so:system/lib/libmtkshifter.so \
  vendor/meizu/m3s/proprietary/lib/libMtkVideoTranscoder.so:system/lib/libMtkVideoTranscoder.so \
  vendor/meizu/m3s/proprietary/lib/libn3d3a.so:system/lib/libn3d3a.so \
@@ -589,24 +579,26 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib/libpalwlan_mtk.so:system/lib/libpalwlan_mtk.so \
  vendor/meizu/m3s/proprietary/lib/libperfservicenative.so:system/lib/libperfservicenative.so \
  vendor/meizu/m3s/proprietary/lib/libperfservice.so:system/lib/libperfservice.so \
- vendor/meizu/m3s/proprietary/lib/libpppbtdun.so:system/lib/libpppbtdun.so \
  vendor/meizu/m3s/proprietary/lib/libpq_cust.so:system/lib/libpq_cust.so \
  vendor/meizu/m3s/proprietary/lib/libPQDCjni.so:system/lib/libPQDCjni.so \
  vendor/meizu/m3s/proprietary/lib/libPQjni.so:system/lib/libPQjni.so \
  vendor/meizu/m3s/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
  vendor/meizu/m3s/proprietary/lib/libpqservice.so:system/lib/libpqservice.so \
+ vendor/meizu/m3s/proprietary/lib/librender_engine.so:system/lib/librender_engine.so \
  vendor/meizu/m3s/proprietary/lib/librilmtkmd2.so:system/lib/librilmtkmd2.so \
  vendor/meizu/m3s/proprietary/lib/librilmtk.so:system/lib/librilmtk.so \
  vendor/meizu/m3s/proprietary/lib/librpc.so:system/lib/librpc.so \
  vendor/meizu/m3s/proprietary/lib/libsbccodec.so:system/lib/libsbccodec.so \
- vendor/meizu/m3s/proprietary/lib/libsec.so:system/lib/libsec.so \
  vendor/meizu/m3s/proprietary/lib/libshowlogo.so:system/lib/libshowlogo.so \
+ vendor/meizu/m3s/proprietary/lib/libSonyIMX230PdafLibrary.so:system/lib/libSonyIMX230PdafLibrary.so \
  vendor/meizu/m3s/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
- vendor/meizu/m3s/proprietary/lib/libssladp.so:system/lib/libssladp.so \
  vendor/meizu/m3s/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
  vendor/meizu/m3s/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
  vendor/meizu/m3s/proprietary/lib/libthermalalgo.so:system/lib/libthermalalgo.so \
  vendor/meizu/m3s/proprietary/lib/libtimestretch.so:system/lib/libtimestretch.so \
+ vendor/meizu/m3s/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
+ vendor/meizu/m3s/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
+ vendor/meizu/m3s/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
  vendor/meizu/m3s/proprietary/lib/libtouchfilter.so:system/lib/libtouchfilter.so \
  vendor/meizu/m3s/proprietary/lib/libudf.so:system/lib/libudf.so \
  vendor/meizu/m3s/proprietary/lib/libui_ext.so:system/lib/libui_ext.so \
@@ -615,22 +607,19 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/lib/libvcodecdrv.so:system/lib/libvcodecdrv.so \
  vendor/meizu/m3s/proprietary/lib/libvcodec_oal.so:system/lib/libvcodec_oal.so \
  vendor/meizu/m3s/proprietary/lib/libvcodec_utility.so:system/lib/libvcodec_utility.so \
+ vendor/meizu/m3s/proprietary/lib/libvfb_render.so:system/lib/libvfb_render.so \
  vendor/meizu/m3s/proprietary/lib/libviagpsrpc.so:system/lib/libviagpsrpc.so \
- vendor/meizu/m3s/proprietary/lib/libviatelecom-withuim-ril.so:system/lib/libviatelecom-withuim-ril.so \
  vendor/meizu/m3s/proprietary/lib/libvp8dec_sa.ca7.so:system/lib/libvp8dec_sa.ca7.so \
  vendor/meizu/m3s/proprietary/lib/libvp8enc_sa.ca7.so:system/lib/libvp8enc_sa.ca7.so \
  vendor/meizu/m3s/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
+ vendor/meizu/m3s/proprietary/lib/libwebrtc_audio_preprocessing.so:system/lib/libwebrtc_audio_preprocessing.so \
  vendor/meizu/m3s/proprietary/lib/mtk-rilmd2.so:system/lib/mtk-rilmd2.so \
  vendor/meizu/m3s/proprietary/lib/mtk-ril.so:system/lib/mtk-ril.so \
- vendor/meizu/m3s/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
- vendor/meizu/m3s/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
- vendor/meizu/m3s/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
- vendor/meizu/m3s/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so \
- vendor/meizu/m3s/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
- vendor/meizu/m3s/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
- vendor/meizu/m3s/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
- vendor/meizu/m3s/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
- vendor/meizu/m3s/proprietary/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so:system/vendor/lib64/mediadrm/libmockdrmcryptoplugin.so \
+ vendor/meizu/m3s/proprietary/lib/ssl/engines/libkeystore.so:system/lib/ssl/engines/libkeystore.so \
+ vendor/meizu/m3s/proprietary/usr/keylayout/ACCDET.kl:system/usr/keylayout/ACCDET.kl \
+ vendor/meizu/m3s/proprietary/usr/keylayout/AW9201_ts.kl:system/usr/keylayout/AW9201_ts.kl \
+ vendor/meizu/m3s/proprietary/usr/keylayout/mtk-kpd.kl:system/usr/keylayout/mtk-kpd.kl \
+ vendor/meizu/m3s/proprietary/usr/keylayout/mtk-tpd.kl:system/usr/keylayout/mtk-tpd.kl \
  vendor/meizu/m3s/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
  vendor/meizu/m3s/proprietary/vendor/lib/hw/audio.a2dp.blueangel.so:system/vendor/lib/hw/audio.a2dp.blueangel.so \
  vendor/meizu/m3s/proprietary/vendor/lib/hw/bluetooth.blueangel.so:system/vendor/lib/hw/bluetooth.blueangel.so \
