@@ -631,4 +631,6 @@ PRODUCT_COPY_FILES += \
  vendor/meizu/m3s/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
  vendor/meizu/m3s/proprietary/xbin/BGW:system/xbin/BGW \
  vendor/meizu/m3s/proprietary/xbin/mnld:system/xbin/mnld \
- vendor/meizu/m3s/proprietary/xbin/MPED:system/xbin/MPED
+ vendor/meizu/m3s/proprietary/xbin/MPED:system/xbin/MPED \
+ vendor/meizu/m3s/proprietary/lib/libmemtrack.so:system/lib/libmemtrack.so \
+ vendor/meizu/m3s/proprietary/lib64/libmemtrack.so:system/lib64/libmemtrack.so
